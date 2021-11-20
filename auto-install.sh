@@ -6,7 +6,6 @@ echo "${bold}Codam Automatic Extension Installer for Google Chrome, version 1${n
 echo "================================================================"
 echo
 echo -n "Checking for updates..."
-#https://api.github.com/repos/FreekBes/codam_auto_extension_installer/contents/auto-install.sh
 onlineSha=$(curl -s https://api.github.com/repos/FreekBes/codam_auto_extension_installer/contents/auto-install.sh | grep "sha" | awk '{ print substr( $0, 11, 40) }')
 thisSha=$(shasum auto-install.sh)
 if [[ "$onlineSha" != "$thisSha" ]]; then
