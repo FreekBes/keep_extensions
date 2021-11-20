@@ -12,7 +12,7 @@ if [[ "$onlineSha" != "$thisSha" ]]; then
 	echo -e "\r\033[K${bold}An update for this script is available${normal}! Please pull it from the GitHub repository.";
 	echo "https://github.com/FreekBes/codam_auto_extension_installer"
 else
-	echo "No updates available."
+	echo -e "Checking for updates... No updates available."
 fi
 echo
 if [ "$(uname)" != "Darwin" ]; then
