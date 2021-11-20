@@ -7,7 +7,7 @@ echo "================================================================"
 echo
 echo -n "Checking for updates..."
 onlineSha=$(curl -s https://api.github.com/repos/FreekBes/codam_auto_extension_installer/contents/auto-install.sh | grep "sha" | awk '{ print substr( $0, 11, 40) }')
-thisSha=$(shasum auto-install.sh)
+thisSha=$(git hash-object auto-install.sh)
 if [[ "$onlineSha" != "$thisSha" ]]; then
 	echo -e "\r\033[K${bold}An update for this script is available${normal}! Please pull it from the GitHub repository.";
 	echo "https://github.com/FreekBes/codam_auto_extension_installer"
