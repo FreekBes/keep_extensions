@@ -12,5 +12,10 @@ The way the extensions are "forced" into Google Chrome is officially supported b
 - [Codam's Monitoring System Progress for Intra](https://chrome.google.com/webstore/detail/codams-monitoring-system/ibbhfmdmdogpnhbnceifekblmddoniol)
 - [ft_logtime](https://chrome.google.com/webstore/detail/ftlogtime/mnohnflacgkmhaocfhhmjeeciibiciep)
 
+## Currently known issues
+- When logged out due to not doing anything for 42 minutes, the extensions sometimes get completely removed from the macOS profile. You then need to run the script again.
+- After every sign in, you'll need to manually enable the extensions again from the hamburger menu on the top right of the window. But hey, it's better than going to the Chrome Web Store and reinstalling them, right?
+- Any other issues in the [issue list](https://github.com/FreekBes/codam_auto_extension_installer/issues)
+
 ## Can I add an extension I frequently use?
 Please [create an issue](https://github.com/FreekBes/codam_auto_extension_installer/issues/new) in order to discuss if an extension should get added to the list. Anyone using this extension, can then leave a reaction to this issue, if they feel like it should be added too.
