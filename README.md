@@ -7,9 +7,8 @@ By running this script, the extensions chosen by you (and presented in the runni
 The way the extensions are "forced" into Google Chrome is officially supported by Google. See [this webpage](https://developer.chrome.com/docs/extensions/mv2/external_extensions/) on how it works.
 
 ## Currently supported extensions
-- [Dark Theme for Intra 42](https://chrome.google.com/webstore/detail/dark-theme-for-intra-42/hmflgigeigiejaogcgamkecmlibcpdgo)
+- [Improved Intra 42](https://chrome.google.com/webstore/detail/hmflgigeigiejaogcgamkecmlibcpdgo)
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [Codam's Monitoring System Progress for Intra](https://chrome.google.com/webstore/detail/codams-monitoring-system/ibbhfmdmdogpnhbnceifekblmddoniol)
 - [ft_logtime](https://chrome.google.com/webstore/detail/ftlogtime/mnohnflacgkmhaocfhhmjeeciibiciep)
 
 ## Currently known issues
