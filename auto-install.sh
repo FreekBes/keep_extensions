@@ -30,7 +30,7 @@ echo "Answer ${bold}Y${normal} to install, ${bold}N${normal} to skip, for every 
 echo
 
 while true; do
-	read -p "Install ${bold}Dark Intra for Intra 42${normal}? [Y/n] " yn
+	read -p "Install ${bold}Improved Intra 42${normal}? [Y/n] " yn
 	case $yn in
 		[Yy]* ) echo '{ "external_update_url": "https://clients2.google.com/service/update2/crx" }' > "hmflgigeigiejaogcgamkecmlibcpdgo.json"; echo "Installed."; break;;
 		[Nn]* ) echo "Skipped."; break;;
@@ -43,16 +43,6 @@ while true; do
 	read -p "Install ${bold}uBlock Origin${normal}? [Y/n] " yn
 	case $yn in
 		[Yy]* ) echo '{ "external_update_url": "https://clients2.google.com/service/update2/crx" }' > "cjpalhdlnbpafiamejdnhcphjbkeiagm.json"; echo "Installed."; break;;
-		[Nn]* ) echo "Skipped."; break;;
-		* ) echo "Please answer ${bold}Y${normal}es or ${bold}N${normal}o.";;
-	esac
-done
-echo
-
-while true; do
-	read -p "Install ${bold}Codam's Monitoring System Progress for Intra${normal}? [Y/n] " yn
-	case $yn in
-		[Yy]* ) echo '{ "external_update_url": "https://clients2.google.com/service/update2/crx" }' > "ibbhfmdmdogpnhbnceifekblmddoniol.json"; echo "Installed."; break;;
 		[Nn]* ) echo "Skipped."; break;;
 		* ) echo "Please answer ${bold}Y${normal}es or ${bold}N${normal}o.";;
 	esac
