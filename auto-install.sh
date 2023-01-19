@@ -49,16 +49,6 @@ while true; do
 done
 echo
 
-while true; do
-	read -p "Install ${bold}ft_logtime${normal}? [Y/n] " yn
-	case $yn in
-		[Yy]* ) echo '{ "external_update_url": "https://clients2.google.com/service/update2/crx" }' > "mnohnflacgkmhaocfhhmjeeciibiciep.json"; echo "Installed."; break;;
-		[Nn]* ) echo "Skipped."; break;;
-		* ) echo "Please answer ${bold}Y${normal}es or ${bold}N${normal}o.";;
-	esac
-done
-echo
-
 echo "To uninstall an extension later, just remove it from Chrome."
 echo "To reinstall an extension after that, add it from the Web Store."
 echo

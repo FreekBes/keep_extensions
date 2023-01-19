@@ -9,7 +9,6 @@ The way the extensions are "forced" into Google Chrome is officially supported b
 ## Currently supported extensions
 - [Improved Intra 42](https://chrome.google.com/webstore/detail/hmflgigeigiejaogcgamkecmlibcpdgo)
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [ft_logtime](https://chrome.google.com/webstore/detail/ftlogtime/mnohnflacgkmhaocfhhmjeeciibiciep)
 
 ## Currently known issues
 - When logged out due to not doing anything for a while, the extensions every so rarely completely get removed from the macOS profile. You then need to run the script again.
